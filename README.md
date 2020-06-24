@@ -8,28 +8,34 @@ The project consists of both a Frontend and Backend application.
 The API files can be found in the API folder found in this directory.
 The Frontend files can be found in the Frontend folder also found in this directory.
 
-Prerequisites:
-
 In order for the API to start up, you are required to have Mongo installed on your machine. 
 The API expects a server to be running at mongodb://localhost:27017".
 
 You can find install instructions here: https://docs.mongodb.com/manual/installation/
 
+Currently I am adding a manual phone book entry to the database on start up. 
+Every time you restart the service, a new phone book will be added. This is just so data will be visible on start up. 
+
+
 API:
 
 Please note, I made use of Visual Studio for Mac which is still relatively new. 
 
-Visual Studio for Mac:
+Prerequisites:
 
-1 .NET Core SDK 3.0 or later
-2 Visual Studio for Mac version 7.7 or later
+    Visual Studio for Mac:
+
+        1 .NET Core SDK 3.0 or later
+        2 Visual Studio for Mac version 7.7 or later
 
 
-Visual Studio:
+    Visual Studio:
 
-1 .NET Core SDK 3.0 or later
-2 Visual Studio 2019 with the ASP.NET 
-3 MongoDB
+        1 .NET Core SDK 3.0 or later
+        2 Visual Studio 2019 with the ASP.NET 
+        3 MongoDB
+
+Open PhoneBookApi.sln in the API folder and run the service. 
 
 
 Frontend Vue application:
@@ -47,6 +53,10 @@ npm run dev
 
 # build for production with minification
 npm run build
+
+
+The Server should auto load a phone book entry on startup. You can select a phone book entry in the drop down found at the top right of the page 'Select Phone Book'. 
+Once you have selected a phone book to view, you will see the entries within. No data is display on startup of the page. 
 
 
 Things that I would improved on if the time was available:
