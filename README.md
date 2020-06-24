@@ -17,7 +17,7 @@ Currently I am adding a manual phone book entry to the database on start up.
 Every time you restart the service, a new phone book will be added. This is just so data will be visible on start up. 
 
 
-API:
+# API:
 
 Please note, I made use of Visual Studio for Mac which is still relatively new. 
 
@@ -41,20 +41,20 @@ Visual Studio:
 Open PhoneBookApi.sln in the API folder and run the service. 
 
 
-Frontend Vue application:
+# Frontend Vue application:
 
 In a terminal, cd to the root directory and run the below commands: (these instructions can be found in the ReadMe within the application)
 
 cd Phone-Book/
 
 
-# install dependencies
+## install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+## serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
+## build for production with minification
 npm run build
 
 
@@ -62,9 +62,9 @@ The Server should auto load a phone book entry on startup. You can select a phon
 Once you have selected a phone book to view, you will see the entries within. No data is display on startup of the page. 
 
 
-Things that I would improved on if the time was available:
+# Things that I would improved on if the time was available:
 
-Frontend improvements:
+## Frontend improvements:
 
 * Alphabetical order of phone book
 
@@ -84,7 +84,7 @@ Frontend improvements:
 Currently I'm not catching any errors from the server and I feel bad about this :(
 
 
-Backend improvements:
+## Backend improvements:
 
 * Unit Testing (Making use of interfaces and DI)
 
