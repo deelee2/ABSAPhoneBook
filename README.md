@@ -23,17 +23,20 @@ Please note, I made use of Visual Studio for Mac which is still relatively new.
 
 Prerequisites:
 
-    Visual Studio for Mac:
+Visual Studio for Mac:
 
-        1 .NET Core SDK 3.0 or later
-        2 Visual Studio for Mac version 7.7 or later
+    1 .NET Core SDK 3.0 or later
+    
+    2 Visual Studio for Mac version 7.7 or later
 
 
-    Visual Studio:
+Visual Studio:
 
-        1 .NET Core SDK 3.0 or later
-        2 Visual Studio 2019 with the ASP.NET 
-        3 MongoDB
+    1 .NET Core SDK 3.0 or later
+    
+    2 Visual Studio 2019 with the ASP.NET 
+    
+    3 MongoDB
 
 Open PhoneBookApi.sln in the API folder and run the service. 
 
