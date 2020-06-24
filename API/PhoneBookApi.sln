@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBookApi", "Phonebook\PhonebookApi.csproj", "{70BCD4D3-016C-486D-9606-2D59C099CDF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBookApiTests", "PhoneBookApiTests\PhoneBookApiTests.csproj", "{5DA6EFD4-A681-4D9D-9C68-04F6C291802D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70BCD4D3-016C-486D-9606-2D59C099CDF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70BCD4D3-016C-486D-9606-2D59C099CDF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70BCD4D3-016C-486D-9606-2D59C099CDF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70BCD4D3-016C-486D-9606-2D59C099CDF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA6EFD4-A681-4D9D-9C68-04F6C291802D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA6EFD4-A681-4D9D-9C68-04F6C291802D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA6EFD4-A681-4D9D-9C68-04F6C291802D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA6EFD4-A681-4D9D-9C68-04F6C291802D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

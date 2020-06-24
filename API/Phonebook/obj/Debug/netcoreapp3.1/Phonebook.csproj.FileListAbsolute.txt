@@ -1,0 +1,5 @@
+/Users/dylanmundy/Projects/Phonebook/Phonebook/obj/Debug/netcoreapp3.1/Phonebook.csprojAssemblyReference.cache
+/Users/dylanmundy/Projects/Phonebook/Phonebook/obj/Debug/netcoreapp3.1/Phonebook.AssemblyInfoInputs.cache
+/Users/dylanmundy/Projects/Phonebook/Phonebook/obj/Debug/netcoreapp3.1/Phonebook.AssemblyInfo.cs
+/Users/dylanmundy/Projects/Phonebook/Phonebook/obj/Debug/netcoreapp3.1/Phonebook.csproj.CoreCompileInputs.cache
+/Users/dylanmundy/Projects/Phonebook/Phonebook/obj/Debug/netcoreapp3.1/Phonebook.MvcApplicationPartsAssemblyInfo.cache
